@@ -1,0 +1,13 @@
+<section class="container">
+    <div class="timer__wrapper">
+        <div class="timer">
+            <div class="timer__clock">{{ timerValue }}</div>
+        
+            <div class="timer__btn__container">
+                <button mat-raised-button class="timer__btn" (click)="handleStart()">Start / Stop</button>
+                <button mat-raised-button class="timer__btn" (click)="handleWait()">Wait</button>
+                <button mat-raised-button class="timer__btn" (click)="handleReset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</section>

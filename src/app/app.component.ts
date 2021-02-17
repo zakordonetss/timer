@@ -6,4 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
+    timerValue;
+
+    handleStart() {
+        console.log('start');
+    }
+
+    handleWait() {
+
+    }
+
+    handleReset() {
+
+    }
 }
